@@ -1,0 +1,79 @@
+.mailing-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+    margin-top: 0;
+    text-align: start;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.mailing-form__subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.mailing {
+  flex-direction: row;
+}
+.mailing-form__title {
+  color: var(--sup-head-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 20px;
+}
+.mailing-form__e-mail-window {
+  cursor: pointer;
+  padding: 15px 16px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: inherit;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    height: 50px;
+    margin-bottom: 0;
+  }
+}
+.mailing__button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background: var(--button-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--sup-head-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 12px;
+  }
+}
+.mailing__button-icon {
+  margin-left: 10px;
+}
